@@ -13,6 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+                sh "python3 salut.py | python3 verifica_salut.py"
             }
         }
         stage('Deploy') {
