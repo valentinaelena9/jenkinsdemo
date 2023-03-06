@@ -1,0 +1,14 @@
+# SCM 
+https://github.com/crchende/jenkinsdemo.git
+*/main
+
+#1
+
+echo STEP1
+pwd
+ls -la
+
+#2 
+
+echo STEP2 - executie cod si verificare
+python3 salut.py | python3 verifica_salut.py

@@ -1,0 +1,42 @@
+# Descriere
+
+Job-ul / Proiectul executa un fisier .sh aflat undeva pe disc.
+
+Instructiuni creere fisier .sh:
+========================
+Creaza directorul de mai jos.
+Adauga in el fisierul de mai jos si in fisier adauga continutul de mai jos.
+=========================
+
+director: /home/<user>/programare/shell
+
+fisier: creere_fisier_si_scriere_in_el.sh
+
+nume complet: /home/<user>/programare/shell/creere_fisier_si_scriere_in_el.sh
+=======================
+
+var1="VAR1"
+fn=fisier_$var1
+
+echo 1. Creere fisier $fn:
+touch $fn
+
+echo 2. Adaugare continut in fisier:
+echo SALUT buna ce mai faci > $fn
+
+echo 3. Verificare continut fisier:
+cat $fn
+
+echo 4. Verificare continut director - cu $fn. rezultat 'ls':
+ls
+
+echo 5. Stergere fisier creat in script
+rm -f $fn
+
+######################
+# 1
+
+echo Vezi descrierea pentru a vedea continutul fisierulul de .sh si cum trebuie creat
+fn=/home/cip/programare/shell/creere_fisier_si_scriere_in_el.sh
+bash $fn
+

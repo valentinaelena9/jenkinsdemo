@@ -1,0 +1,37 @@
+#1
+
+echo STEP1 `date +%F/%H:%M:%S`
+fn=fisier_$BUILD_TAG
+echo Creere fisier $fn:
+touch $fn
+echo 2. Adaugare continut in fisier:
+echo SALUT buna ce mai faci > $fn
+echo 4. Verificare continut director - cu $fn. rezultat 'ls':
+ls -lt | head -n 4
+echo 3. Verificare continut fisier:
+cat $fn
+
+
+#2
+
+echo STEP2 `date +%F/%T`
+echo Directorul de lucru este:
+echo `pwd`
+
+
+#3
+
+echo STEP3 `date +%F/%H:%M:%S`
+echo job-ul jenkins a fost executa de catre user-ul:
+echo `id`
+echo Verificati directorul cu job-urile proiectului: /var/lib/jenkins/jobs/Demo/jobs/freestyle_proj1
+echo Informatii despre Jenkins:
+echo JENKINS_HOME: $JENKINS_HOME
+echo NODE_NAME: $NODE_NAME
+echo EXECUTOR_NUMBER: $EXECUTOR_NUMBER
+echo Jenkins WORKSPACE: $WORKSPACE
+echo JOB_NAME: $JOB_NAME
+echo BUILD_DISPLAY_NAME: $BUILD_DISPLAY_NAME
+echo BUILD_ID: $BUILD_ID
+echo TAG_DATE: $TAG_DATE
+

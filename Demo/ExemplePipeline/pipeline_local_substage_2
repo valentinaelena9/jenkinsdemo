@@ -1,0 +1,89 @@
+pipeline {
+    agent none
+    stages {
+        stage("PreBuild1") {
+            agent any
+            steps {
+                echo "Pre Build 1"
+            }
+        }
+        stage("PreBuild2") {
+            agent any
+            steps {
+                echo "Pre Build 2"
+            }
+        }
+
+        stage("2 Build-uri in paralel") {
+            parallel {
+                stage("Build1") {
+                    agent any
+
+                    stages {
+                        stage("build") {
+                            steps {
+                                echo "Build"
+                            }
+                        }
+                        stage("deploy") {
+                            steps {
+                                echo "Deploy"
+                            }
+                        }
+                    }
+                }
+
+                stage("Build2") {
+                    agent any
+                    
+                    stages {
+                        stage("build") {
+                            steps {
+                                echo "Build"
+                            }
+                        }
+                        stage("deploy") {
+                            steps {
+                                echo "Deploy"
+                            }
+                        }
+                    }
+                }
+                stage("Build3") {
+                    agent any
+                    
+                    stages {
+                        stage("build") {
+                            steps {
+                                echo "Build"
+                            }
+                        }
+                        stage("deploy") {
+                            steps {
+                                echo "Deploy"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage("Dupa build") {
+            parallel {
+                stage("DupaBuild1") {
+                    agent any
+                    steps {
+                        echo "Pre Build 1"
+                    }
+                }
+                stage("DupaBuild2") {
+                    agent any
+                    steps {
+                        echo "Pre Build 2"
+                    }
+                }
+            }
+        }
+    }
+}
+
+
