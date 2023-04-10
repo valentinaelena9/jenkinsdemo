@@ -14,7 +14,7 @@ pipeline {
             }
         }
 
-        stage("2 Build-uri in paralel") {
+        stage("3 Build-uri in paralel") {
             parallel {
                 stage("Build1") {
                     agent any
@@ -72,13 +72,13 @@ pipeline {
                 stage("DupaBuild1") {
                     agent any
                     steps {
-                        echo "Pre Build 1"
+                        echo "POST Build 1"
                     }
                 }
                 stage("DupaBuild2") {
                     agent any
                     steps {
-                        echo "Pre Build 2"
+                        echo "POST Build 2"
                     }
                 }
             }
