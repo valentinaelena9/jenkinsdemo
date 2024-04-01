@@ -73,14 +73,13 @@ Verificare rulare Jenkins ca serviciu:
 
     systemctl is
 
-Oprire si dezactivare serviciu Jenkins:
 
-    
+### Oprire si dezactivare serviciu Jenkins:
 
     sudo systemctl stop jenkins
     sudo systemctl disable jenkins
 
-    #Verificarifdf
+    #Verificari
     1)
     $ systemctl is-active jenkins
     inactive
