@@ -173,6 +173,26 @@ Aici vom regasi directoare si fisiere aferente proiectelor si pipeline-urilor fo
 ![image](https://github.com/crchende/jenkinsdemo/assets/57460107/149ec74a-6e4b-4e37-91a1-afd265058bea)
 
 
+Dupa introducerea parolei de admin, urmeaza etapa de instalare componentelor software (plugin) necesaere functionarii Jenkins ca server de CI/CD. 
+Se poate incepe cu setul sugerat de componente iar apoi acest set se paoate extinde usor din interfata web: `Manage Jenkins` -> `Plugins`
+
+![image](https://github.com/crchende/jenkinsdemo/assets/57460107/c75c40e1-849a-429a-97c5-91aeffc7129b)
+
+
+Instalarea plugin-urilor (componentelor software care pun la dispozitie diverse funtionalitati, de exemplu integrarea cu GIT, posibilitatea de a construi pipeline-uri etc.) poate dura mai multe minute.
+
+![image](https://github.com/crchende/jenkinsdemo/assets/57460107/b0c091dd-5356-4885-a7fd-b48f3e7b30ff)
+
+
+Serverul Jenkins se poate configura din pagina `Manage Jenkins` care contine mai multe optiuni, inclusiv pagina de configurare plugin-uri:
+
+![image](https://github.com/crchende/jenkinsdemo/assets/57460107/2af3c102-7f1b-4648-969a-ffaa2709ccda)
+
+
+
+
+
+
 
 
 
