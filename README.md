@@ -204,8 +204,13 @@ Agregatorul contine multe pachete. O selectie poate fi vazuta in captura de ecra
 # Exemple Proiecte FreeStyle
 https://github.com/crchende/jenkinsdemo/tree/main/Demo/ExempleFreestyle
 
+![image](https://github.com/crchende/jenkinsdemo/assets/57460107/454dc1d2-b1ee-4091-b07c-7a63cf62df2d)
+
+
 # Exemple Proiecte Pipeline
 https://github.com/crchende/jenkinsdemo/tree/main/Demo/ExemplePipeline
+
+![image](https://github.com/crchende/jenkinsdemo/assets/57460107/b4c05f77-3173-4976-8b37-989b79476524)
 
 
 
