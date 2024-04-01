@@ -11,15 +11,17 @@ Exista mai multe tutoriale cu diverse optiuni de instalare.
 Recomand utilizarea documentatiei de pe site-ul: https://jenkins.io, mentiunut si actualizat de comunitatea Jenkins.
 Unele versiuni de tutoriale pot fi vechi si nu mai gasiti fie site-ul fie pasii descrisi in documentatie sau in inregistrarea video.
 
-### 1. Ubuntu 22.04 actualizat. Pentru actualizare, rulati comenzile:
+
+### Pregatire Ubuntu. Actualizare de executat comenzile:
 
     sudo su -
     apt update
     apt upgrade
 
 
-### 2. Instalare Java Open JDK: 
-  https://www.jenkins.io/doc/book/installing/linux/#installation-of-java
+### Instalare Java Open JDK: 
+Urmati pasii din ghidul de instalare online:
+https://www.jenkins.io/doc/book/installing/linux/#installation-of-java
 
     Verificare instalare Java:
     
@@ -31,8 +33,9 @@ Unele versiuni de tutoriale pot fi vechi si nu mai gasiti fie site-ul fie pasii 
     "openjdk version 17.0.8" sa fie "openjdk version 17.0.10".
     Nu ar trebui sa fie probleme cat timp avem aceeasi versiune majora '17' de Java.
 
-### 3. Instalare Jenkins: 
-  https://www.jenkins.io/doc/book/installing/linux/
+### Instalare Jenkins: 
+Urmati pasii din ghidul de instalare online:
+https://www.jenkins.io/doc/book/installing/linux/
 
 Jenkins este instalat ca serviciu. Se poate verifica ca ruleaza cu comanda:
 
@@ -138,9 +141,9 @@ Pentru invatare, recomand rularea Jenkins de catre utilizatorul curent din termi
     Jenkins initial setup is required. An admin user has been created and a password generated.
     Please use the following password to proceed to installation:
     
-    7705z9add9y7439xb508fa32196237c1
+    7705z9add9y7439xb508fa32196237c1                                             <---------- PAROLA INITIALA DE ADMIN
     
-    This may also be found at: /home/cip/.jenkins/secrets/initialAdminPassword
+    This may also be found at: /home/cip/.jenkins/secrets/initialAdminPassword   <---------- FISIER CU PAROLA INITIALA DE ADMIN
     
     *************************************************************
     *************************************************************
@@ -159,9 +162,17 @@ Pentru invatare, recomand rularea Jenkins de catre utilizatorul curent din termi
 
 Oprirea serviciului Jenkins se poate face cu `Ctrl-C` din consola unde a fost pornit
 
-
 ### Jenkins isi va face un director local ~/.jenkins
 Aici vom regasi directoare si fisiere aferente proiectelor si pipeline-urilor folosite.
+
+
+## Acces server Jenkins din browseer, dupa instalare si pornire din terminal
+
+* Se solicita parola de administrator. Trebuie introdusa parola afisate in terminal la pornire sau daca nu se afiseaza, trebuie luata parola din fisierul mentionat in mesajul de mai sus
+
+![image](https://github.com/crchende/jenkinsdemo/assets/57460107/149ec74a-6e4b-4e37-91a1-afd265058bea)
+
+
 
 
 
