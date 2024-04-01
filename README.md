@@ -141,9 +141,9 @@ Pentru invatare, recomand rularea Jenkins de catre utilizatorul curent din termi
     Jenkins initial setup is required. An admin user has been created and a password generated.
     Please use the following password to proceed to installation:
     
-    7705z9add9y7439xb508fa32196237c1                                             <---------- PAROLA INITIALA DE ADMIN
+    7705z9add9y7439xb508fa32196237c1                                             <----- (nota) PAROLA INITIALA DE ADMIN
     
-    This may also be found at: /home/cip/.jenkins/secrets/initialAdminPassword   <---------- FISIER CU PAROLA INITIALA DE ADMIN
+    This may also be found at: /home/cip/.jenkins/secrets/initialAdminPassword   <------(nota) FISIER CU PAROLA INITIALA DE ADMIN
     
     *************************************************************
     *************************************************************
