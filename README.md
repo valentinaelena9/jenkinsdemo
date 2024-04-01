@@ -188,12 +188,9 @@ Serverul Jenkins se poate configura din pagina `Manage Jenkins` care contine mai
 
 ![image](https://github.com/crchende/jenkinsdemo/assets/57460107/2af3c102-7f1b-4648-969a-ffaa2709ccda)
 
-Instalare suita de plugin-uri de vizualizare BlueOcean - se va instala BlueOcean Agregator.
+Instalare suita de plugin-uri de vizualizare BlueOcean - se va instala `BlueOcean Aggregator`.
 
-![image](https://github.com/crchende/jenkinsdemo/assets/57460107/7df406df-5aa4-427f-ae54-09d466b4dfed)
-
-
-Selectarea optinuni de instalare `Blue Ocean Aggregator` si apoi a butonului 'Install' va genera instalarea mai multor plugin-uri care permit o vizializare sub forma de graf a pasilor din pipeline.
+Selectarea optinuni de instalare `BlueOcean Aggregator` si apoi a butonului 'Install' va genera instalarea mai multor plugin-uri care permit o vizializare sub forma de graf a pasilor din pipeline.
 Agregatorul contine multe pachete. O selectie poate fi vazuta in captura de ecran de mai jos:
 
 ![image](https://github.com/crchende/jenkinsdemo/assets/57460107/2d8248ae-d341-496b-a0c0-f9c6d9ac887b)
