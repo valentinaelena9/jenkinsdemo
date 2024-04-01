@@ -3,7 +3,8 @@
 ## Cuprins
 
 1. [Instalare Jenkins](#instalare-jenkins)
-1. [Exemple proiecte FreeStyle](#exemple-proiecte-freestyle)
+1. [Exemple Proiecte FreeStyle](#exemple-proiecte-freestyle)
+1. [Exemple Proiecte Pipeline](#exemple-proiecte-pipeline)
 
 
 # Instalare Jenkins
@@ -194,6 +195,9 @@ Selectarea optinuni de instalare `BlueOcean Aggregator` si apoi a butonului 'Ins
 Agregatorul contine multe pachete. O selectie poate fi vazuta in captura de ecran de mai jos:
 
 ![image](https://github.com/crchende/jenkinsdemo/assets/57460107/2d8248ae-d341-496b-a0c0-f9c6d9ac887b)
+
+
+
 
 
 
