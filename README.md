@@ -2,7 +2,7 @@
 
 ## Cuprins
 
-1. [Instalare Jenkins][#instalare-jenkins]
+1. [Instalare Jenkins](#instalare-jenkins)
 
 
 
