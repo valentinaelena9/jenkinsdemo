@@ -1,4 +1,12 @@
-# jenkinsdemo
-jenkinsdemo
+# Exemple de proiecte FreeStyle si Pipeline-uri Jenkins folosite la cursul de SCC (Sisteme Cloud si Containerizare)
 
-# aici ar fi trebuit descris mai in detaliu care-i treaba cu acest program
+## Cuprins
+
+1. [Instalare Jenkins][#instalare-jenkins]
+
+
+
+## Instalare Jenkins
+Tutorial: https://www.youtube.com/watch?v=VD3dB5wGtJI
+
+
