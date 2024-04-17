@@ -1,4 +1,4 @@
-# Exemple de proiecte FreeStyle si Pipeline-uri Jenkins folosite la cursul de SCC (Sisteme Cloud si Containerizare)
+# Exemple de proiecte FreeStyle si Pipeline Jenkins folosite la cursul de SCC (Sisteme Cloud si Containerizare)
 
 ## Cuprins
 
